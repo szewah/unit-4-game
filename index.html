@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-12 text-center">
+                <h2>Crystals Collectors</h2>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <p>Here's how the game works:</p>
+                <ol>
+                    <li>When you start, the computer shows a random number. In order to 
+                        guess it, you must click on the crystals which also have random values and
+                        are hidden.
+                    </li>
+                    <li>When you click on a crystal, a specific amount will appear and be added 
+                        to the score.
+                    </li>
+                    <li>You win if your total score matches the random number. You lose 
+                        if you go above it.
+                    </li>
+                    <li>The game restarts whenever you win or lose. 
+                    </li>
+                </ol>
+            </div>   
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-3" id="number"></div>
+            <div class="col-md-5" id="winslosses">
+                <div class="row">
+                    <div class="col-md" id="wins">Wins:</div>
+                    <div class="col-md" id="losses">Losses:</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">                 
+                    <img src="assets/images/color.png" id="colorImage" alt="">
+                    <img src="assets/images/b_w.png" id="blackWhiteImage" alt="">
+                    <img src="assets/images/gold_black.png" id="goldBlackImage" alt="">
+                    <img src="assets/images/pink.png" id="pink" alt="">
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-3" id="scoreText">Your total score is</div>
+         </div>
+        <div class="row justify-content-md-center" >
+            <div class="col-md-3" id="scoreBox">0</div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="assets/javascript/games.js"></script>
+</body>
+</html>

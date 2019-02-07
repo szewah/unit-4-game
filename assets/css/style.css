@@ -1,0 +1,64 @@
+body {
+    background-color: #803060;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.col-md-12 {
+    color:#80ffd5;
+    margin: 10px;
+}
+
+.col-md-8 {
+    text-align: left;
+    margin-bottom: 10px;
+    background-color:	#80ffd5;
+}
+
+.col-md-3 {
+    text-align: center;
+}
+
+#number, #winslosses {
+    margin: 10px;
+    background-color:#f08080;
+    line-height: 200px;
+}
+
+p {
+    text-align: left;
+    padding: 10px;
+}
+
+#colorImage, #blackWhiteImage, #goldBlackImage, #pink {
+    width: 25%;
+    height: 95%;
+    padding: 10px;
+}
+
+#scoreText, #scoreBox {
+    width: 100%;
+    line-height: 100px;
+    margin-top: 5px;
+    background-color: #f08080;
+}
+
+@media (min-width: 992px) { 
+    #colorImage, #blackWhiteImage, #goldBlackImage, #pink {
+        width: 100px;
+        height: 100px;
+    }
+ }
+
+ @media (min-width: 768px) {
+    #colorImage, #blackWhiteImage, #goldBlackImage, #pink {
+        width: 100px;
+        height: 100px;
+    }
+  }
+
+
+
