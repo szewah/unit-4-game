@@ -11,12 +11,12 @@ $(document).ready(function() {
 
     function startGame() {
         score = 0;
-        randomNumber =Math.floor(Math.random()*100 + 1)
+        randomNumber =Math.floor(Math.random()*101 + 19)
         console.log(randomNumber);
-        num1 = Math.floor(Math.random()*10 + 1);
-        num2 = Math.floor(Math.random()*10 + 1);
-        num3 = Math.floor(Math.random()*10 + 1);
-        num4 = Math.floor(Math.random()*10 + 1);
+        num1 = Math.floor(Math.random()*11 + 1);
+        num2 = Math.floor(Math.random()*11 + 1);
+        num3 = Math.floor(Math.random()*11 + 1);
+        num4 = Math.floor(Math.random()*11 + 1);
         $('#number').text(randomNumber);
         $('#wins').text('Wins: ' + wins);
         $('#losses').text('Losses: ' + losses);
